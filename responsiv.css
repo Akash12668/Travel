@@ -311,10 +311,10 @@
 .ft-frm button {
     position: relative;
     top: -60px;
-    right: -9em;
+    right: -11em;
 }
 .ft-frm{
-  margin-left: 40px;
+  margin-left: 50px;
 }
   .page-header {
     height: auto;
