@@ -307,6 +307,15 @@
 
 
 @media (max-width: 500px) {
+
+.ft-frm button {
+    position: relative;
+    top: -60px;
+    right: -11em;
+}
+.ft-frm{
+  margin-left: 50px;
+}
   .page-header {
     height: auto;
     min-height: 340px;
