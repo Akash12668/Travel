@@ -1,0 +1,289 @@
+/* ============================================================
+   WILDVENTURE PROFESSIONAL FOOTER STYLESHEET
+   Keeps existing brand colors (footer #4c280c, bottom #321804,
+   accent #e16a12, white text/icons).
+   ============================================================ */
+
+footer {
+    background-color: #4c280c;
+    color: #ffffff;
+}
+
+/* ----- Top bar: logo + newsletter slot ----- */
+.row11 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px !important;
+    padding: 12px 0 30px;
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.ft-logo img {
+    max-height: 52px;
+}
+
+/* ----- Newsletter form ----- */
+.ft-frm {
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+}
+
+.ft-frm form {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+}
+
+.ft-frm input[type="email"] {
+    flex: 1;
+    min-width: 0;
+    padding: 13px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.08);
+    color: #ffffff;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.3s ease, background 0.3s ease;
+}
+
+.ft-frm input[type="email"]::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.ft-frm input[type="email"]:focus {
+    border-color: #e16a12;
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.ft-frm button {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    flex: 0 0 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.ft-frm button a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: inherit;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* ----- Main columns ----- */
+.row12 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 24px;
+    padding: 40px 0 25px;
+    margin: 0;
+}
+
+.row12 .col-lg-3 {
+    width: calc(25% - 18px);
+    max-width: calc(25% - 18px);
+    flex: 0 0 calc(25% - 18px);
+}
+
+.ft-col {
+    padding: 0 0 30px;
+}
+
+/* ----- Column headings ----- */
+.ft-txt h4,
+.ft-txt1 h4,
+.ft-txt2 h4,
+.ft-txt3 h4 {
+    color: #ffffff;
+    font-size: 22px !important;
+    font-weight: 700;
+    margin: 0 0 18px;
+    padding: 0 0 12px !important;
+    position: relative;
+    letter-spacing: 0.5px;
+}
+
+.ft-txt h4::after,
+.ft-txt1 h4::after,
+.ft-txt2 h4::after,
+.ft-txt3 h4::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 42px;
+    height: 3px;
+    border-radius: 2px;
+    background: #e16a12;
+}
+
+/* ----- About column ----- */
+.ft-txt,
+.ft-txt1,
+.ft-txt2,
+.ft-txt3 {
+    padding: 0 !important;
+    text-align: left;
+}
+
+.ft-txt p {
+    margin: 0;
+    padding: 0 !important;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* ----- Social icons ----- */
+.ft-icn {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.ft-social {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.ft-social i {
+    color: #fff9f4;
+    font-size: 20px !important;
+    padding: 0 !important;
+    transition: color 0.3s ease;
+}
+
+.ft-social:hover {
+    background: #e16a12;
+    border-color: #e16a12;
+    transform: translateY(-3px);
+}
+
+.ft-social:hover i {
+    color: #ffffff;
+}
+
+/* ----- Link lists (contact / quick links / services) ----- */
+.ft-p,
+.ft-p1,
+.ft-p2 {
+    list-style: none;
+    margin: 0;
+    padding: 0 !important;
+    text-align: left;
+}
+
+.ft-p li,
+.ft-p1 li,
+.ft-p2 li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 12px;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.ft-p li i,
+.ft-p1 li i,
+.ft-p2 li i {
+    color: #e16a12;
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+.ft-p a,
+.ft-p1 a,
+.ft-p2 a {
+    color: inherit;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: baseline;
+    gap: 10px;
+    transition: color 0.3s ease;
+}
+
+.ft-p a:hover,
+.ft-p1 a:hover,
+.ft-p2 a:hover {
+    color: #e16a12;
+}
+
+.ft-p li:last-child,
+.ft-p1 li:last-child,
+.ft-p2 li:last-child {
+    margin-bottom: 0;
+}
+
+/* ----- Bottom bar ----- */
+.ft-last {
+    background-color: #321804;
+    padding: 18px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.ft-last p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    letter-spacing: 0.4px;
+}
+
+/* ----- Responsive ----- */
+@media (max-width: 991px) {
+    .row12 .col-lg-3 {
+        width: calc(50% - 12px);
+        max-width: calc(50% - 12px);
+        flex: 0 0 calc(50% - 12px);
+    }
+}
+
+@media (max-width: 600px) {
+    .row12 .col-lg-3 {
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .row11 {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .ft-frm {
+        max-width: 100%;
+    }
+
+    .ft-frm form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .ft-frm input[type="email"] {
+        width: 100%;
+    }
+}
