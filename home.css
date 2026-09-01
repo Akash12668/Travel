@@ -1026,7 +1026,7 @@ transition: all 0.7s linear;
 #scrollTopBtn {
     position: fixed;
     bottom: 35px;
-    right: 35px;
+    right: 45px;
     z-index: 999;
     width: 52px;
     height: 52px;
